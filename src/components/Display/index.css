@@ -1,0 +1,10 @@
+#displayInp {
+  outline: none;
+  caret-color: transparent;
+}
+#displayInp:not(:focus) + span {
+  display: none;
+}
+#displayInp:focus + span {
+  display: inline;
+}
